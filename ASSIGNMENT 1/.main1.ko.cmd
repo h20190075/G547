@@ -1,0 +1,1 @@
+cmd_/home/riya/DD_assignment_1/main1.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000 -T ./scripts/module-common.lds  --build-id  -o /home/riya/DD_assignment_1/main1.ko /home/riya/DD_assignment_1/main1.o /home/riya/DD_assignment_1/main1.mod.o ;  true
