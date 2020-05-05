@@ -1,0 +1,1 @@
+cmd_/home/riya/ASS3/main.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000 -T ./scripts/module-common.lds --build-id  -o /home/riya/ASS3/main.ko /home/riya/ASS3/main.o /home/riya/ASS3/main.mod.o ;  true
